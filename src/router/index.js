@@ -13,11 +13,11 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/',
+      path: '/home',
       component: Container
     },
     {
-      path: '/login',
+      path: '/',
       component: Login
     }
   ]

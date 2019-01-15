@@ -25,7 +25,7 @@ export default {
   methods: {
       home:function(){
           if(this.input2=='张与时'&&this.input21=='123'){
-                this.$router.push({path:'/'})
+                this.$router.push({path:'/home'})
           }else{
               alert("账号或者密码错误")
           }
